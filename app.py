@@ -40,7 +40,7 @@ from translate_response import (_TRANSLATE_ERROR, _TRANSLATE_INTO_W,
 # 1. Go to console.google.com create or use an existing project
 # 2. Enable the Cloud Translation API in the console for your project
 # 3. Create an API key in the credentials tab and paste it below
-API_KEY = e7aa0c4c909d2e84c5d96ce271a2ff101a30ebd8
+API_KEY = AIzaSyBOODNLNJlKqzvBJUDF7DuwKkv9TCSyjO4
 TRANSLATION_SERVICE = build('translate', 'v2', developerKey=API_KEY)
 
 APP = Flask(__name__)
